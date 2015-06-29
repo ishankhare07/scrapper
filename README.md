@@ -1,5 +1,5 @@
 # scrapper
-a scrapper written in python with requests and very BeautifulSoup
+a scrapper written in python with urging requests and very BeautifulSoup
 
 ## Installing  
 * Clone this repo  
