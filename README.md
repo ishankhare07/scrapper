@@ -27,9 +27,10 @@ $ pip3 install -r requirements.txt
 * We can also issue recursion depths and max-urls to scan
 ```python
 >>> from main import Scrapper
->>> s = Scrapper("http://news.ycombinator.com/","hacker_news", 20, 30)    #url, filename to store data,
-                                                                          #max-recursion depth,
-                                                                          #max-urls to scan
+>>> s = Scrapper("http://news.ycombinator.com/",            #url
+                "hacker_news",                              #filename to store data
+                20,                                         #max-recursion depth
+                30)                                         #max-urls to scan
 >>> s.start_scrapping()
 ```
 
